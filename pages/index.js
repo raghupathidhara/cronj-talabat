@@ -23,7 +23,7 @@ export default function Home() {
         sx={{
           display: "grid",
           gridTemplateColumns: "10% 1fr",
-          gap:'2rem'
+          gap: "2rem",
         }}
       >
         <Grid item>
