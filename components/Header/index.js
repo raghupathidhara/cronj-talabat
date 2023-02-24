@@ -6,7 +6,7 @@ const index = () => {
   return (
     <>
       <Box className="flex justify-start my-2 w-screen box-content">
-        <Box className="p-2 mx-3 w-24 rounded-md bg-white">
+        <Box className="p-2 mr-3 ml-2 w-24 rounded-md bg-white">
           <Image src={"/images/logo.svg"} width={50} height={50} className="m-auto"/>
         </Box>
         <Box className="w-11/12 flex justify-between p-2 bg-white rounded-md">
@@ -37,14 +37,14 @@ const index = () => {
             <Image
               className="p-1 border-r-2 border-slate-300"
               src={"/images/greenbox.svg"}
-              width={70}
+              width={50}
               height={50}
             />
 
             <Image
              className="m-2"
               src={"/images/notification-1.svg"}
-              width={30}
+              width={25}
               height={50}
             />
           </Box>
