@@ -5,11 +5,11 @@ import SearchIcon from "@mui/icons-material/Search";
 const index = () => {
   return (
     <>
-      <Box className="flex justify-start">
-        <Box className="p-1 mr-3 rounded-md bg-white">
-          <Image src={"/images/logo.svg"} width={50} height={50} />
+      <Box className="flex justify-start my-2 w-screen box-content">
+        <Box className="p-2 mx-3 w-24 rounded-md bg-white">
+          <Image src={"/images/logo.svg"} width={50} height={50} className="m-auto"/>
         </Box>
-        <Box className="w-screen flex justify-between p-1 bg-white rounded-md">
+        <Box className="w-11/12 flex justify-between p-2 bg-white rounded-md">
           <Box>
             <Typography className="font-bold text-2xl">
               Welcome Back, Ahmed!

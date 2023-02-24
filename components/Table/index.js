@@ -4,7 +4,7 @@ import Orders from '../Orders'
 
 function index({ table }) {
   return (
-    <Grid container sx={{background:'#fff', padding:'1rem', borderRadius:'1rem'}}>
+    <Grid container sx={{background:'#fff', padding:'1rem', borderRadius:'1rem', height:"400px"}} className="mt-2">
       {table && (
         <Grid container sx={{gap:'0.5rem'}}>
           <Grid item container sx={{

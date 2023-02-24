@@ -4,7 +4,7 @@ import React from 'react'
 const Approve = ({setApprove}) => {
   return (
     <>
-    <Box className='flex flex-col m-3 bg-white'>
+    <Box className='flex flex-col m-3 bg-white justify-center items-center' sx={{width:"100%",height:"100%"}}>
       <Grid container>
         <Grid item md={4}>
             <Box className='border-2 border-lime-600 p-4 text-center bg-sky-50 rounded-md'>

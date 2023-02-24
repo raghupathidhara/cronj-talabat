@@ -10,11 +10,12 @@ export default function Home() {
 
   return (
 
-    <Grid container sx={{
-      gap:'2rem',
+    <Grid container className="w-full" sx={{
+      gap:'10px',
       display:'grid',
+      
     }}>
-      <Grid item container>
+      <Grid item container className="w-full">
         <Header />
       </Grid>
       <Grid

@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import { useState } from "react";
 import Bills from "../Bills";
 import Cashier from "../Cashier";
@@ -11,16 +11,19 @@ function index({ bills }) {
   const [isApproved, setIsApproved]= useState(false);
 
   return (
-    <Grid item container sx={{height:"100%"}}>
+    <Grid item container sx={{height:"100%",width:"100%"}}>
       <Grid item container>
         <Cashier showBlock={isApproved} showTotals={isApproved} />
       </Grid>
       <Grid
+      
         item
         container
         sx={{
           display: "grid",
-          gridTemplateColumns: "30% 1fr",
+          marginBottom:"0px",
+          gridTemplateColumns:"1fr 2fr",
+          width:"100%",
         }}
       >
         {
@@ -33,10 +36,10 @@ function index({ bills }) {
               <Table table={bills[selectedBill]}/>
             </Grid>
             </>
-          ): <Approve setApprove={setIsApproved}/>
+          ): <Box><Approve setApprove={setIsApproved}/></Box>
         }
       </Grid>
-      <Grid item container sx={{marginTop:"auto"}}>
+      <Grid container className="mt-auto">
         <Footer/>
       </Grid>
     </Grid>

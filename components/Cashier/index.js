@@ -7,7 +7,7 @@ const dootedClass =
 const index = ({showBlock,showTotals}) => {
   return (
     <>
-      <Box className="flex justify-between p-5 mx-3 bg-white rounded-md">
+      <Box className="flex justify-between px-5 py-3 bg-white rounded-md w-full my-2">
         <Box className="flex items-center">
           <Typography className="font-bold mr-2">Cashier</Typography>
           {showBlock && (
