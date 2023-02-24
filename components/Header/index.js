@@ -1,3 +1,4 @@
+"use client"
 import { Box, Grid, InputAdornment, TextField, Typography } from "@mui/material";
 import Image from "next/image";
 import SearchIcon from "@mui/icons-material/Search";

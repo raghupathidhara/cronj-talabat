@@ -1,3 +1,4 @@
+"use client"
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
@@ -19,6 +20,7 @@ const Sidebar = () => {
         {menus.length &&
           menus.map((menu, ind) => (
             <Box
+              key={ind}
               className={`flex flex-col items-center cursor-pointer py-4 px-2 ${
                 selected == ind
                   ? "border-solid border-r-2 border-red-700 box-border"

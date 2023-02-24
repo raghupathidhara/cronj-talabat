@@ -1,3 +1,5 @@
+"use client"
+
 import { Box, Divider, Grid } from "@mui/material";
 import React, { useState } from "react";
 import BillsCard from "../common/Card/BillsCard";

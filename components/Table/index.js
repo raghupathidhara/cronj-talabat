@@ -1,3 +1,4 @@
+"use client"
 import { Button, Divider, Grid } from "@mui/material";
 import React from "react";
 import Orders from "../Orders";
