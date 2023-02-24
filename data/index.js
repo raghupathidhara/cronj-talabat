@@ -43,7 +43,7 @@ const bills = [
         id: 2,
         orderInfo: {
           time: "08:22 AM",
-          isPaid: false,
+          isPaid: true,
         },
         items: [
           {
@@ -52,7 +52,7 @@ const bills = [
               title: "Caffe Americano",
             },
             modifiers: ["No milk", "Something"],
-            payment: false,
+            payment: true,
             price: 20.0,
           },
         ],
