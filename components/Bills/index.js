@@ -12,6 +12,7 @@ function index({bills, setSelectedBill}) {
 
   return (
     <Grid container>
+      <Grid item container>Bills</Grid>
        {bills && bills.map((bill, i)=>(
         <Grid item container key={bill.id} onClick={()=>onClickHandler(i)} style={{
             color: index===i ? "red" :'black',

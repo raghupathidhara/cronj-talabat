@@ -7,7 +7,6 @@ import Table from '../Table'
 function index({ bills }) {
   const [selectedBill, setSelectedBill] = useState(0);
 
-
   return (
     <Grid item container>
       <Grid item container>

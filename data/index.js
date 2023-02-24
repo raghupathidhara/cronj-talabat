@@ -719,7 +719,6 @@ const bills = [
     discount: 2.0,
     total: 18.0,
   },
- 
 ];
 
 export default bills;
