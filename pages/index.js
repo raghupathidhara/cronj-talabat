@@ -1,5 +1,7 @@
 import { Grid } from "@mui/material";
 import Sidebar from "@/components/Sidebar";
+import Footer from "@/components/Footer/Footer";
+import ButtonComp from "@/components/Button/Button";
 
 export default function Home() {
   return (
@@ -30,9 +32,11 @@ export default function Home() {
             gridTemplateColumns:'30% 1fr'
           }} >
             <Grid item container>Bills</Grid>
-            <Grid item container>Table 1</Grid>
+            <Grid item container><ButtonComp>Split total Amount</ButtonComp>
+            <ButtonComp textColor="#C02328" bgColor="#C0232826" border="2px solid #C02328">bordered button</ButtonComp>
+            </Grid>
           </Grid>
-          <Grid item container>Footer</Grid>
+          <Grid item container className="m-3 mt-auto"><Footer/></Grid>
         </Grid>
       </Grid>
     </Grid>
