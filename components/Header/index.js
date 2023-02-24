@@ -1,9 +1,9 @@
-"use client"
+
 import { Box, Grid, InputAdornment, TextField, Typography } from "@mui/material";
 import Image from "next/image";
 import SearchIcon from "@mui/icons-material/Search";
 
-const index = () => {
+const Index = () => {
   return (
     <>
       <Box className="flex justify-start  my-2 w-screen box-content">
@@ -55,4 +55,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

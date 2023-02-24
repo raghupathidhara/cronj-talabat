@@ -1,4 +1,4 @@
-"use client"
+
 import {
   Button,
   Checkbox,
@@ -13,50 +13,10 @@ import {
 import Image from "next/image";
 import React from "react";
 
-const getModifiers = (order) => {
-  const getItems = () => {
-    return 
-    <>
-        {
-        order.items.map((item, i) => {
-               return item.modifiers.map((item, i) => (
-                    <Grid
-                    item
-                    container
-                    key={i}
-                    sx={{
-                        gap: "0.3rem",
-                    }}
-                    >
-                    <Button
-                        variant="contained"
-                        size="small"
-                        sx={{
-                        backgroundColor: "#ccc !important",
-                        fontSize: "0.5rem",
-                        width: "fit-content",
-                        }}
-                    >
-                        {item}
-                    </Button>
-                    </Grid>
-                ));
-            })
-        }
-    </>
-  };
-
-  return (
-    <Grid item container gap={"0.5rem"}>
-      {getItems()}
-      {order.items.length > 1 && <Divider fullWidth sx={{ width: "100%" }} />}
-    </Grid>
-  );
-};
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-function index({ orders }) {
+function Index({ orders }) {
   return (
     <Grid container>
       <Table>
@@ -114,7 +74,7 @@ function index({ orders }) {
                 <TableCell>
                   <Grid item container gap={"0.5rem"}>
                     {order.items.map((item, i) => (
-                      <>
+                      <div key={i}>
                         <Grid
                           item
                           container
@@ -149,14 +109,14 @@ function index({ orders }) {
                           {order.items.length - 1 != i && (
                             <Divider fullWidth sx={{ width: "100%" }} />
                           )}
-                      </>
+                      </div>
                     ))}
                   </Grid>
                 </TableCell>
                 <TableCell>
                   <Grid item container gap={"0.5rem"}>
                     {order.items.map((item, i) => (
-                      <>
+                      <div key={i}>
                         <Grid
                           item
                           container
@@ -170,6 +130,7 @@ function index({ orders }) {
                         >
                           {item.modifiers.map((mod, j)=>(
                             <Button
+                            key={j}
                             variant="contained"
                             size="small"
                             sx={{
@@ -186,14 +147,14 @@ function index({ orders }) {
                           {order.items.length - 1 != i && (
                             <Divider fullWidth sx={{ width: "100%" }} />
                           )}
-                      </>
+                      </div >
                     ))}
                   </Grid>
                 </TableCell>
                 <TableCell>
                   <Grid item container gap={"0.5rem"}>
                     {order.items.map((item, i) => (
-                      <>
+                      <div key={i}>
                         <Grid
                           item
                           container
@@ -218,14 +179,14 @@ function index({ orders }) {
                           {order.items.length - 1 != i && (
                             <Divider fullWidth sx={{ width: "100%" }} />
                           )}
-                      </>
+                      </div>
                     ))}
                   </Grid>
                 </TableCell>
                 <TableCell>
                   <Grid item container gap={"0.5rem"}>
                     {order.items.map((item, i) => (
-                      <>
+                      <div key={i}>
                         <Grid
                           item
                           container
@@ -239,7 +200,7 @@ function index({ orders }) {
                             <Divider fullWidth sx={{ width: "100%" }} />
                           )}
                         </Grid>
-                      </>
+                      </div>
                     ))}
                   </Grid>
                 </TableCell>
@@ -252,4 +213,4 @@ function index({ orders }) {
   );
 }
 
-export default index;
+export default Index;

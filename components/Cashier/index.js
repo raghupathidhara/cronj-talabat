@@ -1,11 +1,11 @@
-"use client"
+
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 
 const dootedClass =
   "border-dashed border-2  p-2 text-xs font-bold mx-2 rounded-md";
 
-const index = ({showBlock,showTotals}) => {
+const Index = ({showBlock,showTotals}) => {
   return (
     <>
       <Box className="flex justify-between px-5 py-3 bg-white rounded-md w-full my-2">
@@ -41,4 +41,4 @@ const index = ({showBlock,showTotals}) => {
   );
 }
 
-export default index;
+export default Index;

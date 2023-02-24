@@ -1,10 +1,9 @@
-"use client"
 
 import { Box, Divider, Grid } from "@mui/material";
 import React, { useState } from "react";
 import BillsCard from "../common/Card/BillsCard";
 
-function index({ bills, setSelectedBill }) {
+function Index({ bills, setSelectedBill }) {
   const [index, setIndex] = useState(0);
 
   const onClickHandler = (value) => {
@@ -39,4 +38,4 @@ function index({ bills, setSelectedBill }) {
   );
 }
 
-export default index;
+export default Index;

@@ -1,4 +1,4 @@
-"use client"
+
 import { Box, Grid } from "@mui/material";
 import { useState } from "react";
 import Bills from "../Bills";
@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 import Table from "../Table";
 import Approve from "../Approve";
 
-function index({ bills }) {
+function Index({ bills }) {
   const [selectedBill, setSelectedBill] = useState(0);
   const [isApproved, setIsApproved] = useState(false);
 
@@ -42,4 +42,4 @@ function index({ bills }) {
   );
 }
 
-export default index;
+export default Index;

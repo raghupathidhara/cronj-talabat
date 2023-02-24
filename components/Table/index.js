@@ -3,7 +3,7 @@ import { Button, Divider, Grid } from "@mui/material";
 import React from "react";
 import Orders from "../Orders";
 
-function index({ table }) {
+function Index({ table }) {
   return (
     <Grid
       container
@@ -181,4 +181,4 @@ function index({ table }) {
   );
 }
 
-export default index;
+export default Index;
