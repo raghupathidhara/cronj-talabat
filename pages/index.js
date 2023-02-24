@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
           gap:'2rem'
         }}
       >
-        <Grid item>Sidebar</Grid>
+        <Grid item>
+          <Sidebar />
+        </Grid>
         <Grid item container>
           <Grid item container>
             cashier
