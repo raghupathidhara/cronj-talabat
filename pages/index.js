@@ -11,19 +11,24 @@ export default function Home() {
   return (
 
     <Grid container sx={{
-      gap:'2rem',
+      gap:'10px',
       display:'grid',
+      gridTemplateColumns:'1fr',
+      height:'100vh',
+      paddingLeft:'0.4rem'
     }}>
-      <Grid item container>
+      <Grid item container sx={{width:'98%'}}>
         <Header />
       </Grid>
       <Grid
         item
         container
+        
         sx={{
           display: "grid",
-          gridTemplateColumns: "10% 1fr",
-          // gap: "2rem",
+          gridTemplateColumns: "100px 1fr",
+          width:'98%',
+          gap:'1rem'
         }}
       >
         <Grid item>

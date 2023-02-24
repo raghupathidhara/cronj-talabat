@@ -11,6 +11,9 @@ const BillsCard = ({ cardData, onClick,selected }) => {
     <Box
       className={`m-2 p-2 border-${selected?"red":"gray"}-600 rounded-md border-2 cursor-pointer hover:border-red-600`}
       onClick={() => onClick()}
+      sx={{
+        border: selected ? "1px solid red": 'grey'
+      }}
     >
       <Box className="flex justify-between">
         <Box className="flex items-center">
