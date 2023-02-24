@@ -11,18 +11,31 @@ const menus = [
 ];
 
 const Sidebar = () => {
-  const [selected,setselected]=useState(0)
+  const [selected, setselected] = useState(4);
+
   return (
     <Box className="h-screen py-2 mx-4 my-2 rounded-xl bg-white w-max flex flex-col justify-between items-center w-24">
       <Box className="py-2">
         {menus.length &&
-          menus.map((menu,ind) => (
-            <Box className={`flex flex-col items-center cursor-pointer py-4 px-2 ${selected==ind?"border-solid border-r-2 border-red-700 box-border":"pr-2"}`} onClick={()=>setselected(ind)}>
+          menus.map((menu, ind) => (
+            <Box
+              className={`flex flex-col items-center cursor-pointer py-4 px-2 ${
+                selected == ind
+                  ? "border-solid border-r-2 border-red-700 box-border"
+                  : "pr-2"
+              }`}
+              onClick={() => setselected(ind)}
+            >
               <Box>
-                <img src={menu.icon} alt="menu"/>
+                <img src={menu.icon} alt="menu" />
               </Box>
               <Box>
-                <Typography variant="caption" className={`hover:text-red-600 ${selected==ind?"text-red-600":"text-stone-400"}`}>
+                <Typography
+                  variant="caption"
+                  className={`hover:text-red-600 ${
+                    selected == ind ? "text-red-600" : "text-stone-400"
+                  }`}
+                >
                   {menu.label}
                 </Typography>
               </Box>

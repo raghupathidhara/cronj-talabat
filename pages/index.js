@@ -1,18 +1,21 @@
 import { Grid } from "@mui/material";
 import Sidebar from "@/components/Sidebar";
-import Footer from "@/components/Footer/Footer";
-import ButtonComp from "@/components/Button/Button";
+import Header from '@/components/Header'
+
+import Dashboard from '@/components/Dashboard'
+
+import bills from "@/data";
 
 export default function Home() {
+
   return (
-    <Grid
-      container
-      sx={{
-        gap: "2rem",
-      }}
-    >
+
+    <Grid container sx={{
+      gap:'2rem',
+      display:'grid',
+    }}>
       <Grid item container>
-        Header
+        <Header />
       </Grid>
       <Grid
         item
@@ -26,27 +29,8 @@ export default function Home() {
         <Grid item>
           <Sidebar />
         </Grid>
-        <Grid item container>
-          <Grid item container>
-            cashier
-          </Grid>
-          <Grid
-            item
-            container
-            sx={{
-              display: "grid",
-              gridTemplateColumns: "30% 1fr",
-            }}
-          >
-            <Grid item container>
-              Bills
-            </Grid>
-            <Grid item container>
-            </Grid>
-          </Grid>
-          <Grid item container className="m-3 mt-auto">
-            <Footer />
-          </Grid>
+        <Grid item>
+          <Dashboard bills={bills} />
         </Grid>
       </Grid>
     </Grid>
