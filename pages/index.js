@@ -5,9 +5,12 @@ import ButtonComp from "@/components/Button/Button";
 
 export default function Home() {
   return (
-    <Grid container sx={{
-      gap:'2rem'
-    }}>
+    <Grid
+      container
+      sx={{
+        gap: "2rem",
+      }}
+    >
       <Grid item container>
         Header
       </Grid>
@@ -17,7 +20,7 @@ export default function Home() {
         sx={{
           display: "grid",
           gridTemplateColumns: "10% 1fr",
-          gap:'2rem'
+          gap: "2rem",
         }}
       >
         <Grid item>
@@ -27,16 +30,23 @@ export default function Home() {
           <Grid item container>
             cashier
           </Grid>
-          <Grid item container sx={{
-            display:'grid',
-            gridTemplateColumns:'30% 1fr'
-          }} >
-            <Grid item container>Bills</Grid>
-            <Grid item container><ButtonComp>Split total Amount</ButtonComp>
-            <ButtonComp textColor="#C02328" bgColor="#C0232826" border="2px solid #C02328">bordered button</ButtonComp>
+          <Grid
+            item
+            container
+            sx={{
+              display: "grid",
+              gridTemplateColumns: "30% 1fr",
+            }}
+          >
+            <Grid item container>
+              Bills
+            </Grid>
+            <Grid item container>
             </Grid>
           </Grid>
-          <Grid item container className="m-3 mt-auto"><Footer/></Grid>
+          <Grid item container className="m-3 mt-auto">
+            <Footer />
+          </Grid>
         </Grid>
       </Grid>
     </Grid>
