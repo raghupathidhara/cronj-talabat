@@ -6,7 +6,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -15,7 +15,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -42,7 +42,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -60,7 +60,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -86,7 +86,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: true,
       cost: 18.0,
       paymentMethod: "",
@@ -95,7 +95,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -122,7 +122,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -140,7 +140,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -166,7 +166,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 01, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -175,7 +175,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -202,7 +202,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM" ,
           isPaid: false,
         },
         items: [
@@ -220,7 +220,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time:"08:22 AM",
           isPaid: false,
         },
         items: [
@@ -246,7 +246,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -255,7 +255,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -282,7 +282,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -300,7 +300,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -326,7 +326,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -335,7 +335,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -362,7 +362,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -380,7 +380,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -406,7 +406,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -415,7 +415,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -442,7 +442,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -460,7 +460,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -486,7 +486,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -495,7 +495,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -522,7 +522,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -540,7 +540,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -566,7 +566,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -575,7 +575,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -602,7 +602,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -620,7 +620,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -646,7 +646,7 @@ const bills = [
       orderType: "Dine in",
       customer: "Ahmed Shami",
       guests: 2,
-      date: new Date(),
+      date: "Jan 1, 2022",
       isPaid: false,
       cost: 18.0,
       paymentMethod: "",
@@ -655,7 +655,7 @@ const bills = [
       {
         id: 1,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -682,7 +682,7 @@ const bills = [
       {
         id: 2,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
@@ -700,7 +700,7 @@ const bills = [
       {
         id: 3,
         orderInfo: {
-          time: new Date(),
+          time: "08:22 AM",
           isPaid: false,
         },
         items: [
