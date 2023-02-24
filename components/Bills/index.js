@@ -13,11 +13,11 @@ function index({ bills, setSelectedBill }) {
   return (
     <Box
       sx={{
-        height: "530px",
+        height: "100vh",
         backgroundColor: "#FFFFFF",
         borderRadius: "10px",
       }}
-      className="w-80 overflow-y-scroll"
+      className="w-80 overflow-y-scroll my-3"
     >
       <Box className="w-full flex justify-between px-2 pt-2 mb-2">
         <Box className="font-bold text-xl">Bills</Box>

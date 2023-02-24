@@ -14,7 +14,7 @@ const Sidebar = () => {
   const [selected, setselected] = useState(4);
 
   return (
-    <Box className="h-full py-2 mx-4 my-2 rounded-xl bg-white w-max flex flex-col justify-between items-center w-24">
+    <Box className="h-full py-2 mx-4 my-2 rounded-xl bg-white flex flex-col justify-between items-center w-24">
       <Box className="py-2">
         {menus.length &&
           menus.map((menu, ind) => (
